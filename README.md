@@ -1,0 +1,1 @@
+A Fugue hash is implemented by @entershei and @polinb
