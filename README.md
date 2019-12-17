@@ -1,1 +1,1 @@
-A Fugue hash is implemented by @entershei and @polinb
+A Fugue hash is implemented by [entershei](https://github.com/entershei) and [PolinB](https://github.com/PolinB)

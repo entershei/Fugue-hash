@@ -60,16 +60,6 @@ uint8_t get_byte(uint32_t number, int index) { // index = 0, 1, 2, 3
     return uint8_t(x >> 24);
 }
 
-vector<vector<uint8_t >> M = {{1, 4, 7, 1},
-                              {1, 1, 4, 7},
-                              {7, 1, 1, 4},
-                              {4, 7, 1, 1}};
-
-vector<vector<uint8_t >> M_t = {{1, 1, 7, 4},
-                                {4, 1, 1, 7},
-                                {7, 4, 1, 1},
-                                {1, 7, 4, 1}};
-
 vector<vector<uint8_t >> multiply_matrix_4(vector<vector<uint8_t >> const &a, vector<vector<uint8_t >> const &b) {
     vector<vector<uint8_t >> result(4, vector<uint8_t>(4, 0));
     for (int i = 0; i < 4; ++i) {
